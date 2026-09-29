@@ -1,0 +1,1 @@
+*.db  rm -r --cached backend/node_modules

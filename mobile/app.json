@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "EvitaAmenzi",
+    "slug": "evita-amenzi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1D6FF2"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ro.evitaamenzi.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1D6FF2"
+      },
+      "package": "ro.evitaamenzi.app"
+    },
+    "scheme": "evitaamenzi",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font"
+    ]
+  }
+}
